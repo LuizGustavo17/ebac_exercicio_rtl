@@ -13,7 +13,6 @@ describe('Testes para o componente principal', ()=>{
         })
         fireEvent.click(screen.getByTestId('btn-comentario'))
         expect(screen.getByText('muito bonito!')).toBeInTheDocument()
-        fireEvent.click(screen.getByTestId('btn-comentario'))
         fireEvent.change(screen.getByTestId('campo-comentario'), {
             target: {
                 value: 'vou querer um desse!'
