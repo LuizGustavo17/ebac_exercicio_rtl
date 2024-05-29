@@ -1,5 +1,5 @@
 import styles from './Post.module.css';
-
+import React from 'react';
 import PostComments from '../PostComments';
 import { ReactNode } from 'react';
 
